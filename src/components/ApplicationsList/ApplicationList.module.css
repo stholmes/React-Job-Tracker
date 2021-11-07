@@ -1,0 +1,14 @@
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.application_list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.application_list__header {
+    text-align: left;
+    border-bottom: 1px solid #333;
+}

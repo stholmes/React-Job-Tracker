@@ -1,0 +1,10 @@
+tr {
+    width: 100%;
+}
+tr:nth-of-type(odd) {
+    background-color: rgb(180, 212, 255);
+}
+
+td {
+    padding: 10px 5px;
+}

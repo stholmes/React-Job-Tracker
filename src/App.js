@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import MainHeader from "./components/MainHeader/MainHeader";
+import ApplicationList from "./components/ApplicationsList/ApplicationList";
 
 function App() {
+  const testData = [
+    {
+      id: 0,
+      title: 'Web Developer',
+      company: 'Nile',
+      status: 'Applied'
+      
+    },
+    {
+      id: 1,
+      title: 'Front-end Developer',
+      company: 'XYZ',
+      status: 'Requested Interview'
+    },
+
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <MainHeader />
+      <ApplicationList data={testData} />
+    </Fragment>
   );
 }
 

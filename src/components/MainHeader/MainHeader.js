@@ -4,7 +4,7 @@ const MainHeader = () => {
     return (
         <header className={classes.header}>
             <div className={classes.container}>
-                <h1><span className={classes.react_color}>React</span> Job Tracker</h1>
+                <h1><span className={classes.react_color}>React</span> Application Tracker</h1>
             </div>
 
 
