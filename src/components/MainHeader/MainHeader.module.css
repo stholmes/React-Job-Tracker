@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    max-height: 75px;
+    background-color: rgb(66, 66, 66);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header h1 {
+    color: white;
+    font-size: 4em;
+}
+
+span.react_color{
+    color: #61DBFB;
+}
